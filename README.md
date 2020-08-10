@@ -17,7 +17,7 @@
     <ul>
         <li>ดึงข้อมูล Api ของผู้ติดเชื้อมาทำ Data Analysis โดยใช้ Python</li>
         <li>สร้างโปรเจค Django (Web App)</li>
-        <li>จัดการฝั่ง Backend ของเว็บแอพที่ใช้เชื่อมต่อกันระหว่าง JSON กับ Python</li>
+        <li>จัดการฝั่ง Backend ของเว็บแอพที่ใช้เชื่อมต่อกันระหว่าง JSON(Api) กับ Python</li>
     </ul>
     <li>นายพันธวีร์ คงสวัสดิ์ (61070140)</li>
     <ul>
