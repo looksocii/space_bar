@@ -18,7 +18,7 @@ public class Student extends Person{
     private ArrayList<String> students;
     
     private Student(){
-        type = "teacher";
+        type = "student";
     }
     
     public static Student getInstance(){
