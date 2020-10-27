@@ -19,3 +19,13 @@
     <li>run projects "service-discovery-client1" - "service-discovery-client5"</li>
     <li>open dashboard.html for view all services</li>
 </ol>
+
+## Member Space_Bar
+
+<ol>
+    <li>นายพันธกานต์ แก้วสังหาร (61070139)</li>
+    <li>นายพันธวีร์ คงสวัสดิ์ (61070140)</li>
+    <li>นายนนททรัพย์ เซี่ยงฉิน (61070095)</li>
+    <li>นายพัชรพล บุญชุ่ม (61070136)</li>
+    <li>นายสิรภพ รักเกื้อ (61070241)</li>
+</ol>
