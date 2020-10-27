@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
+        ol.even {
+        
+        position: relative;
+        left: 10.45455rem;
+        }
+
+        ol.odd {
+   
+        position: relative;
+        
+        left: 17.7455rem;
+        bottom:4rem;
+        }
+
+        .hex {
+
+        position: relative;
+        margin: 1em auto;
+        width: 6rem;
+        height: 10.2rem;
+        background: #581845;
+        transform: rotate(-90deg);
+        display: inline-block;
+        list-style-type: none;
+        margin-right: 4.61538rem;
+        transition: all 150ms ease-in-out;
+        z-index: 2;
+        
+        }
+  
+
+        .hex:before, .hex:after {
+        
+        position: absolute;
+        width: inherit;
+        height: inherit;
+        border-radius: inherit;
+        background: inherit;
+        content: '';
+        z-index: -1;
+        }
+
+        .hex:before {
+        
+        transform: rotate(60deg);
+        }
+
+        .hex:after {
+        
+        transform: rotate(-60deg);
+        }
+     
+        .hex:hover {
+            
+        background: #FFC300 ;
+    
+        cursor: pointer;
+        font-size: 120%;
+   
+        }
+        .hex .hex-content {
+        position: absolute;
+        text-align: center;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%) rotate(90deg);
+        color: white;
+        }
+        .con {
+            align-items: ;
+        }
+        h1 {
+            color : white;
+            font-family: 'Kanit', sans-serif;
+        }
+        body {
+            background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSOanWGfCEJT_VntEd-z0VS00NALhotFvdX7g&usqp=CAU");
+            font-family: 'Kanit', sans-serif;
+            height: 220%;
+            background-position: fill;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+
+
+
+        .hex2 {
+
+position: relative;
+margin: 1em auto;
+width: 6rem;
+height: 10.2rem;
+background: #383836;
+opacity: 35%;
+transform: rotate(-90deg);
+display: inline-block;
+list-style-type: none;
+margin-right: 4.61538rem;
+transition: all 150ms ease-in-out;
+z-index: 2;
+
+}
+.hex2:hover {
+        
+        
+            cursor: pointer;
+            font-size: 120%;
+       
+            }
+
+.hex2:before, .hex2:after {
+
+position: absolute;
+width: inherit;
+height: inherit;
+border-radius: inherit;
+background: inherit;
+content: '';
+z-index: -1;
+}
+
+.hex2:before {
+
+transform: rotate(60deg);
+}
+
+.hex2:after {
+
+transform: rotate(-60deg);
+}
+
+
+.hex2 .hex2-content {
+position: absolute;
+
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%) rotate(90deg);
+color: white;
+}
+    </style>
+
+    <div class="con">
+        <center>
+    <h1> Space Bar Service </h1> <br><br>
+</center>
+    <div class="product_grid">
+        <ol class="even">
+            <ul id="product_list" class="hex-content"></ul>
+        </ol> 
+        <ol class="odd">
+           
+            <li class='hex2'><div class="hex-content"></div></li>
+            <li class='hex2'><div class="hex-content"></div></li>
+            <li class='hex2'><div class="hex-content"></div></li>
+            <li class='hex2'><div class="hex-content"></div></li>
+    
+        </ol> 
+
+    </div>
+    <script>
+        fetch("http://localhost:8761/all")
+            .then(response => response.json())
+            .then(result => {
+                let field = document.getElementById("product_list")
+                let up = result.up
+                let down = result.down
+                
+                for (i = 0; i < up.length; i++) {
+                    field.innerHTML += '<li class="hex"><div class="hex-content">'+up[i]+'<br>(Available)'+'</div></li>';
+                }
+
+                for (i = 0; i < down.length; i++) {
+                    field.innerHTML += '<li class="hex"><div class="hex-content">'+down[i]+'(Unavialable)'+'</div></li>';
+                }
+
+            })
+            .catch(error => console.log('error', error));
+    </script>
+    </div>
+</body>
+
+</html>
