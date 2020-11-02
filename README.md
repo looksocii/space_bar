@@ -8,7 +8,7 @@
     <li>message ติดต่อกันระหว่างลูกค้ากับร้านค้านั้นๆ (Messaging)</li>
 </ul>
 
-# Solution By.Head
+# Solution by.Head
 
 <p>Note : Task All CRM module use React App.</p>
 <ul>
@@ -19,8 +19,10 @@
     <li>จัดการเกี่ยวกับข้อมูลหลังดึงข้อมูลมาจาก DataBase แล้ว นำมาทำการ loop, mapping ต่างๆ</li>
 </ul>
 
+# Members and tasks received
+
 <ol>
-    <li>นายพันธกานต์ แก้วสังหาร (61070139)</li>
+    <li>นายพันธกานต์ แก้วสังหาร (61070139 - Head)</li>
     <ul>
         <li>ทำ backend โดยใช้ React App เชื่อมกับ DataBase (ดึงข้อมูลใน database มาแสดงบนหน้าเว็บให้ได้)</li>
         <li>จัดการเกี่ยวกับข้อมูลหลังดึงข้อมูลมาจาก DataBase แล้ว นำมาทำการ loop, mapping ต่างๆ</li>
