@@ -18,6 +18,7 @@
     <li>ทำ backend โดยใช้ React App เชื่อมกับ DataBase (ดึงข้อมูลใน database มาแสดงบนหน้าเว็บให้ได้)</li>
     <li>จัดการเกี่ยวกับข้อมูลหลังดึงข้อมูลมาจาก DataBase แล้ว นำมาทำการ loop, mapping ต่างๆ</li>
 </ul>
+<img src="./CRM-Module/img/CRM-Module.png">
 
 # Members and tasks received
 
