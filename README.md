@@ -18,6 +18,18 @@
     <li>ทำ backend โดยใช้ React App เชื่อมกับ DataBase (ดึงข้อมูลใน database มาแสดงบนหน้าเว็บให้ได้)</li>
     <li>จัดการเกี่ยวกับข้อมูลหลังดึงข้อมูลมาจาก DataBase แล้ว นำมาทำการ loop, mapping ต่างๆ</li>
 </ul>
+
+# CRM Services
+
+<ul>
+    <li>การรีวิวสินค้าจากลูกค้าที่ซื้อสินค้านั้นๆ (Create Review)</li>
+    <li>การติดต่อกันระหว่างลูกค้ากับเจ้าของร้าน (Create Messenger)</li>
+    <li>การสอบถามเกี่ยวกับสินค้านั้นๆ (Create Question)</li>
+    <li>การตอบกลับของร้านค้าหรือลูกค้าที่มีการสอบถามเกี่ยวกับสินค้านั้นๆ (Create Comment)</li>
+</ul>
+
+# CRM Database (Logical Design)
+
 <img src="./CRM-Module/img/CRM-Module.png">
 
 # Members and tasks received
