@@ -1,6 +1,6 @@
 # Module CRM (E-Commerce)
 
-<img src="https://lh3.googleusercontent.com/proxy/GgAEv2GnCooSyB0OI62csYXdBsxW2v3_pUX_39BmKAtKWDwin8NWIk-t5X7DRz_AQl5GOrF_OtraZDMp2sP4BssNk0Odn-0ZSAlsfGYCySJnHWze8zMatEVoU3g2VT9VZOmMXNQaMLgMFvRz0t-rMqJLTSItw2ucbQBY4bXYAZUY3CbirZY">
+<img src="https://store.magenest.com/wp/wp-content/uploads/2018/07/top-5-crm-software.png">
 <p>เป็นส่วนที่จัดการเกี่ยวกับการรักษาความสัมพันธ์กับลูกค้า (เพื่อให้การติดต่อกันระหว่างร้านค้ากับลูกค้าได้สะดวกมากยิ่งขึ้น) โดยจะมีระบบหรือหน้าย่อยๆ ดังนี้</p>
 <ul>
     <li>การรีวิวสินค้า (Review)</li>
