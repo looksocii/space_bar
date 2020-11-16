@@ -32,6 +32,8 @@
 
 <img src="./CRM-Module/img/CRM-Module.png">
 
+# Swagger CRM service api
+<li>Read : https://app.swaggerhub.com/apis/SirapopJayz/CRM_API/1.0.0</li>
 # Members and tasks received
 
 <ol>
